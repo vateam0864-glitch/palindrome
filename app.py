@@ -8,3 +8,5 @@ if __name__ == "__main__":
         print(f"{text} is a palindrome")
     else:
         print(f"{text} is NOT a palindrome")
+
+print("🔄 Deploy triggered automatically!")
