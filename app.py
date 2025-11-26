@@ -10,3 +10,4 @@ if __name__ == "__main__":
         print(f"{text} is NOT a palindrome")
 
 print("🔄 Deploy triggered automatically!")
+print ("✅ Application restarted with the latest code.")
