@@ -10,6 +10,4 @@ jobs:
     steps:
       - name: Trigger local deploy script
         run: |
-          curl -X POST  https://garnet-unwatermarked-unspitefully.ngrok-free.dev -> http://localhost:5000                                       
-                                                                                                                                                                                    
-                                                                                
+          curl -X POST https://garnet-unwatermarked-unspitefully.ngrok-free.dev/deploy
