@@ -1,0 +1,13 @@
+name: Local Palindrome Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  notify-server:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger local deploy script
+        run: |
+          curl -X POST http://<YOUR_LOCAL_IP>:5000/deploy
