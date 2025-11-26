@@ -12,3 +12,4 @@ if __name__ == "__main__":
 print("🔄 Deploy triggered automatically!")
 print ("✅ Application restarted with the latest code.")
 print("HELLO")
+print("how are you")
