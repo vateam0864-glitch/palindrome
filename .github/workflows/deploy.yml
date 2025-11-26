@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: Trigger local deploy script
         run: |
-          curl -X POST http://<YOUR_LOCAL_IP>:5000/deploy
+          curl -X POST http://172.16.2.57:5000/deploy
